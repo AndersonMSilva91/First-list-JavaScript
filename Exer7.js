@@ -2,22 +2,22 @@ const prompt = require('prompt-sync')();
 
 //the letters are representative of the numbers for an equation. (inversion of values)
 
-const AString = prompt('Type the valor of A: ');
+const AString = prompt('Type the value of A: ');
 const A = Number(AString);
 
-const BString = prompt('Type the valor of B: ');
+const BString = prompt('Type the value of B: ');
 const B = Number(BString);
 
-const CString = prompt('Type the valor of C: ');
+const CString = prompt('Type the value of C: ');
 const C = Number(CString);
 
-const DString = prompt('Type the valor of D: ');
+const DString = prompt('Type the value of D: ');
 const D = Number(DString);
 
-const EString = prompt('Type the valor of E: ');
+const EString = prompt('Type the value of E: ');
 const E = Number(EString);
 
-const FString = prompt('Type the valor of F: ');
+const FString = prompt('Type the value of F: ');
 const F = Number(FString);
 
 const X = ((C*E)-(B*F)) / ((A*E)-(B*D));
