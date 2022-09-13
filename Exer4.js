@@ -1,12 +1,12 @@
 const prompt = require('prompt-sync')();
 
-const AString = prompt('Type the valor of A: ');
+const AString = prompt('Type the value of A: ');
 const A = Number(AString);
 
-const BString = prompt('Type the valor of B: ');
+const BString = prompt('Type the value of B: ');
 const B = Number(BString);
 
-const CString = prompt('Type the valor of C: ');
+const CString = prompt('Type the value of C: ');
 const C = Number(CString);
 
 const R = Math.pow(A + B,2);
