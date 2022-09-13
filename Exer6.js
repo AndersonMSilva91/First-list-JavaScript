@@ -2,16 +2,16 @@ const prompt = require('prompt-sync')();
 
 //Data entry (distance calculation by equation)
 
-const x1String = prompt('Insert the valor of x1: ');
+const x1String = prompt('Insert the value of x1: ');
 const x1 = Number(x1String);
 
-const x2String = prompt('Insert the valor of x2: ');
+const x2String = prompt('Insert the value of x2: ');
 const x2 = Number(x2String);
 
-const y1String = prompt('Insert the valor of y1: ');
+const y1String = prompt('Insert the value of y1: ');
 const y1 = Number(y1String);
 
-const y2String = prompt('Insert the valor of y2: ');
+const y2String = prompt('Insert the value of y2: ');
 const y2= Number(y2String);
 
 //Processing (below is the equation)
